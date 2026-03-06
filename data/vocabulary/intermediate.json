@@ -1,12 +1,12 @@
 [
-    {"id": 21, "indonesian": "mencoba", "english": "try", "synonyms": ["attempt"], "difficulty": 4, "pos": "verb"},
-    {"id": 22, "indonesian": "penting", "english": "important", "synonyms": ["significant", "crucial"], "difficulty": 4, "pos": "adjective"},
-    {"id": 23, "indonesian": "memahami", "english": "understand", "synonyms": ["comprehend"], "difficulty": 5, "pos": "verb"},
-    {"id": 24, "indonesian": "menjelaskan", "english": "explain", "synonyms": ["describe"], "difficulty": 5, "pos": "verb"},
-    {"id": 25, "indonesian": "mengembangkan", "english": "develop", "synonyms": [], "difficulty": 6, "pos": "verb"},
-    {"id": 26, "indonesian": "meningkatkan", "english": "improve", "synonyms": ["enhance"], "difficulty": 5, "pos": "verb"},
-    {"id": 27, "indonesian": "mendukung", "english": "support", "synonyms": ["back", "assist"], "difficulty": 4, "pos": "verb"},
-    {"id": 28, "indonesian": "menggunakan", "english": "use", "synonyms": ["utilize", "employ"], "difficulty": 4, "pos": "verb"},
-    {"id": 29, "indonesian": "membantu", "english": "help", "synonyms": ["assist", "aid"], "difficulty": 4, "pos": "verb"},
-    {"id": 30, "indonesian": "mempelajari", "english": "study", "synonyms": ["learn", "examine"], "difficulty": 5, "pos": "verb"}
+    {"id": 41, "indonesian": "mencoba", "english": "try", "synonyms": ["attempt"], "difficulty": 4, "pos": "verb"},
+    {"id": 42, "indonesian": "penting", "english": "important", "synonyms": ["significant", "crucial"], "difficulty": 4, "pos": "adjective"},
+    {"id": 43, "indonesian": "memahami", "english": "understand", "synonyms": ["comprehend"], "difficulty": 5, "pos": "verb"},
+    {"id": 44, "indonesian": "menjelaskan", "english": "explain", "synonyms": ["describe"], "difficulty": 5, "pos": "verb"},
+    {"id": 45, "indonesian": "mengembangkan", "english": "develop", "synonyms": [], "difficulty": 6, "pos": "verb"},
+    {"id": 46, "indonesian": "meningkatkan", "english": "improve", "synonyms": ["enhance"], "difficulty": 5, "pos": "verb"},
+    {"id": 47, "indonesian": "mendukung", "english": "support", "synonyms": ["back", "assist"], "difficulty": 4, "pos": "verb"},
+    {"id": 48, "indonesian": "menggunakan", "english": "use", "synonyms": ["utilize", "employ"], "difficulty": 4, "pos": "verb"},
+    {"id": 49, "indonesian": "membantu", "english": "help", "synonyms": ["assist", "aid"], "difficulty": 4, "pos": "verb"},
+    {"id": 50, "indonesian": "mempelajari", "english": "investigate", "synonyms": ["examine", "explore"], "difficulty": 5, "pos": "verb"}
 ]
