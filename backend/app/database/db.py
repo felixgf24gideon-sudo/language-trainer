@@ -107,6 +107,21 @@ def update_user_error(user_id: int, error_type: str):
     finally:
         conn.close()
 
+def get_user_recent_tasks(user_id: int, limit: int = 5) -> list:
+    conn = get_connection()
+    try:
+        rows = conn.execute(
+            """SELECT task_type, instruction FROM tasks
+               WHERE user_id = ?
+               ORDER BY created_at DESC
+               LIMIT ?""",
+            (user_id, limit)
+        ).fetchall()
+        return [dict(row) for row in rows]
+    finally:
+        conn.close()
+
+
 def get_user_error_profile(user_id: int) -> dict:
     conn = get_connection()
     try:
