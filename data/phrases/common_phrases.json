@@ -1,0 +1,22 @@
+[
+    {"id": 1, "indonesian": "lari cepat", "english": "run quickly", "alternatives": ["run fast"], "difficulty": 2},
+    {"id": 2, "indonesian": "sangat bahagia", "english": "very happy", "alternatives": ["really happy", "so happy"], "difficulty": 2},
+    {"id": 3, "indonesian": "belajar keras", "english": "study hard", "alternatives": [], "difficulty": 2},
+    {"id": 4, "indonesian": "setiap hari", "english": "every day", "alternatives": ["daily"], "difficulty": 2},
+    {"id": 5, "indonesian": "di sekolah", "english": "at school", "alternatives": ["in school"], "difficulty": 2},
+    {"id": 6, "indonesian": "sangat penting", "english": "very important", "alternatives": ["really important", "extremely important"], "difficulty": 3},
+    {"id": 7, "indonesian": "dengan hati-hati", "english": "carefully", "alternatives": ["with care"], "difficulty": 4},
+    {"id": 8, "indonesian": "pada waktu itu", "english": "at that time", "alternatives": ["back then"], "difficulty": 4},
+    {"id": 9, "indonesian": "berbicara dengan jelas", "english": "speak clearly", "alternatives": ["talk clearly"], "difficulty": 3},
+    {"id": 10, "indonesian": "bekerja keras", "english": "work hard", "alternatives": ["work diligently"], "difficulty": 2},
+    {"id": 11, "indonesian": "pergi ke sekolah", "english": "go to school", "alternatives": [], "difficulty": 2},
+    {"id": 12, "indonesian": "makan pagi", "english": "eat breakfast", "alternatives": ["have breakfast"], "difficulty": 2},
+    {"id": 13, "indonesian": "tidur lebih awal", "english": "sleep early", "alternatives": ["go to bed early"], "difficulty": 3},
+    {"id": 14, "indonesian": "baca buku", "english": "read a book", "alternatives": ["read books"], "difficulty": 2},
+    {"id": 15, "indonesian": "tulis surat", "english": "write a letter", "alternatives": ["write letters"], "difficulty": 3},
+    {"id": 16, "indonesian": "dengarkan musik", "english": "listen to music", "alternatives": ["hear music"], "difficulty": 3},
+    {"id": 17, "indonesian": "bermain bersama", "english": "play together", "alternatives": ["play with friends"], "difficulty": 3},
+    {"id": 18, "indonesian": "berbagi dengan orang lain", "english": "share with others", "alternatives": ["share with people"], "difficulty": 4},
+    {"id": 19, "indonesian": "membantu sesama", "english": "help others", "alternatives": ["assist others"], "difficulty": 4},
+    {"id": 20, "indonesian": "menjaga kesehatan", "english": "maintain health", "alternatives": ["keep healthy", "stay healthy"], "difficulty": 4}
+]
