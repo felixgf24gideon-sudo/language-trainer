@@ -39,6 +39,10 @@ class SkillTracker:
     def user_id(self) -> int:
         return self._user_id
 
+    @property
+    def profile(self) -> UserProfile:
+        return self._profile
+
     def get_user_profile(self) -> dict:
         """
         Return a comprehensive profile dict suitable for task generation.
