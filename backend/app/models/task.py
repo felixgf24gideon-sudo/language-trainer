@@ -8,6 +8,8 @@ class Task:
     instruction: str
     level: int
     expected_answer: Optional[str] = None
+    acceptable_answers: List[str] = field(default_factory=list)
+    metadata: Dict[str, Any] = field(default_factory=dict)
     vocabulary_item: Optional[Dict[str, Any]] = None
     phrase_item: Optional[Dict[str, Any]] = None
     sentence_item: Optional[Dict[str, Any]] = None
@@ -24,6 +26,8 @@ class Task:
             "instruction": self.instruction,
             "level": self.level,
             "expected_answer": self.expected_answer,
+            "acceptable_answers": self.acceptable_answers,
+            "metadata": self.metadata,
             "task_id": self.task_id,
             "user_answer": self.user_answer,
             "created_at": self.created_at
