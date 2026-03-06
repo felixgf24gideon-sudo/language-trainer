@@ -1,0 +1,12 @@
+[
+    {"id": 51, "indonesian": "mempertimbangkan", "english": "consider", "synonyms": ["contemplate"], "difficulty": 7, "pos": "verb"},
+    {"id": 52, "indonesian": "menerapkan", "english": "apply", "synonyms": ["implement"], "difficulty": 8, "pos": "verb"},
+    {"id": 53, "indonesian": "mengevaluasi", "english": "evaluate", "synonyms": ["assess"], "difficulty": 8, "pos": "verb"},
+    {"id": 54, "indonesian": "menganalisis", "english": "analyze", "synonyms": ["examine"], "difficulty": 9, "pos": "verb"},
+    {"id": 55, "indonesian": "menyimpulkan", "english": "conclude", "synonyms": ["infer"], "difficulty": 9, "pos": "verb"},
+    {"id": 56, "indonesian": "mengintegrasikan", "english": "integrate", "synonyms": ["incorporate"], "difficulty": 8, "pos": "verb"},
+    {"id": 57, "indonesian": "mendefinisikan", "english": "define", "synonyms": ["describe", "specify"], "difficulty": 7, "pos": "verb"},
+    {"id": 58, "indonesian": "berargumentasi", "english": "argue", "synonyms": ["claim", "assert"], "difficulty": 9, "pos": "verb"},
+    {"id": 59, "indonesian": "mengkritisi", "english": "critique", "synonyms": ["criticize", "analyze"], "difficulty": 9, "pos": "verb"},
+    {"id": 60, "indonesian": "mensintesis", "english": "synthesize", "synonyms": ["combine", "integrate"], "difficulty": 10, "pos": "verb"}
+]

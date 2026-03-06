@@ -1,0 +1,22 @@
+[
+    {"id": 1, "indonesian": "Saya pergi ke sekolah kemarin.", "english": "I went to school yesterday.", "grammar_focus": ["past_tense", "time_expression"], "difficulty": 3},
+    {"id": 2, "indonesian": "Dia sedang membaca buku.", "english": "She is reading a book.", "grammar_focus": ["present_continuous", "article"], "difficulty": 2},
+    {"id": 3, "indonesian": "Mereka bermain sepak bola setiap hari.", "english": "They play football every day.", "grammar_focus": ["present_simple", "frequency"], "difficulty": 2},
+    {"id": 4, "indonesian": "Saya belajar bahasa Inggris karena saya ingin mendapat nilai bagus.", "english": "I study English because I want to get good grades.", "grammar_focus": ["causative", "infinitive"], "difficulty": 4},
+    {"id": 5, "indonesian": "Kami akan pergi ke pantai besok.", "english": "We will go to the beach tomorrow.", "grammar_focus": ["future_tense", "preposition_of_place"], "difficulty": 3},
+    {"id": 6, "indonesian": "Dia telah menyelesaikan pekerjaannya.", "english": "She has finished her work.", "grammar_focus": ["present_perfect", "possessive"], "difficulty": 5},
+    {"id": 7, "indonesian": "Jika saya punya waktu, saya akan membantumu.", "english": "If I have time, I will help you.", "grammar_focus": ["conditional", "future"], "difficulty": 6},
+    {"id": 8, "indonesian": "Buku yang saya baca sangat menarik.", "english": "The book that I read is very interesting.", "grammar_focus": ["relative_clause", "adjective"], "difficulty": 6},
+    {"id": 9, "indonesian": "Ibu saya memasak makanan yang lezat setiap malam.", "english": "My mother cooks delicious food every night.", "grammar_focus": ["present_simple", "possessive", "adjective"], "difficulty": 3},
+    {"id": 10, "indonesian": "Saya tidak bisa datang ke pesta kemarin karena saya sakit.", "english": "I could not come to the party yesterday because I was sick.", "grammar_focus": ["past_tense", "negation", "causative"], "difficulty": 5},
+    {"id": 11, "indonesian": "Adik saya sedang tidur ketika saya pulang.", "english": "My younger sibling was sleeping when I came home.", "grammar_focus": ["past_continuous", "time_clause"], "difficulty": 5},
+    {"id": 12, "indonesian": "Guru menjelaskan pelajaran dengan sangat jelas.", "english": "The teacher explained the lesson very clearly.", "grammar_focus": ["past_tense", "adverb"], "difficulty": 4},
+    {"id": 13, "indonesian": "Saya sudah makan sebelum kamu datang.", "english": "I had already eaten before you came.", "grammar_focus": ["past_perfect", "time_clause"], "difficulty": 7},
+    {"id": 14, "indonesian": "Orang yang rajin pasti akan sukses.", "english": "A diligent person will definitely succeed.", "grammar_focus": ["article", "future", "adverb"], "difficulty": 5},
+    {"id": 15, "indonesian": "Meskipun dia lelah, dia tetap belajar.", "english": "Although she was tired, she kept studying.", "grammar_focus": ["concessive_clause", "past_tense"], "difficulty": 6},
+    {"id": 16, "indonesian": "Buku itu telah ditulis oleh seorang penulis terkenal.", "english": "That book was written by a famous author.", "grammar_focus": ["passive_voice", "past_tense"], "difficulty": 7},
+    {"id": 17, "indonesian": "Semakin banyak kamu belajar, semakin pintar kamu.", "english": "The more you study, the smarter you become.", "grammar_focus": ["comparative", "complex_sentence"], "difficulty": 7},
+    {"id": 18, "indonesian": "Dia bertanya apakah saya mau pergi bersamanya.", "english": "She asked whether I wanted to go with her.", "grammar_focus": ["reported_speech", "conditional"], "difficulty": 8},
+    {"id": 19, "indonesian": "Proyek ini harus diselesaikan sebelum akhir bulan.", "english": "This project must be completed before the end of the month.", "grammar_focus": ["modal_verb", "passive_voice", "time_expression"], "difficulty": 7},
+    {"id": 20, "indonesian": "Mereka telah bekerja selama lebih dari sepuluh tahun di perusahaan ini.", "english": "They have been working for more than ten years at this company.", "grammar_focus": ["present_perfect_continuous", "time_expression"], "difficulty": 8}
+]
