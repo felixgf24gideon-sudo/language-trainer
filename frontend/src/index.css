@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-bg-primary text-text-primary antialiased;
+  }
+}
+
+@layer components {
+  .task-card {
+    @apply bg-bg-secondary rounded-lg p-8 shadow-xl max-w-2xl mx-auto;
+  }
+
+  .answer-input {
+    @apply w-full bg-bg-tertiary text-text-primary text-lg px-6 py-4 rounded-lg
+           border-2 border-transparent focus:border-accent-primary focus:outline-none
+           transition-colors duration-200;
+  }
+
+  .btn-primary {
+    @apply bg-accent-primary text-white px-6 py-3 rounded-lg font-medium
+           hover:bg-blue-600 transition-colors duration-200 focus:outline-none
+           focus:ring-2 focus:ring-accent-primary focus:ring-offset-2 focus:ring-offset-bg-primary;
+  }
+
+  .score-bar {
+    @apply h-2 bg-bg-tertiary rounded-full overflow-hidden;
+  }
+
+  .score-fill {
+    @apply h-full transition-all duration-500 ease-out;
+  }
+}

@@ -58,7 +58,7 @@ def update_user_stats(user_id: int, level: int, total_tasks: int, correct_tasks:
     finally:
         conn.close()
 
-def save_task(user_id: int, task_type: str, instruction: str, expected_answer: str, user_answer: str) -> int:
+def save_task(user_id: int, task_type: str, instruction: str, expected_answer: str, user_answer: str = "") -> int:
     conn = get_connection()
     try:
         cursor = conn.execute(
@@ -68,6 +68,61 @@ def save_task(user_id: int, task_type: str, instruction: str, expected_answer: s
         )
         conn.commit()
         return cursor.lastrowid
+    finally:
+        conn.close()
+
+
+def get_task_by_id(task_id: int) -> dict:
+    conn = get_connection()
+    try:
+        row = conn.execute("SELECT * FROM tasks WHERE id = ?", (task_id,)).fetchone()
+        if row:
+            return dict(row)
+        return None
+    finally:
+        conn.close()
+
+
+def update_task_answer(task_id: int, user_answer: str):
+    conn = get_connection()
+    try:
+        conn.execute(
+            "UPDATE tasks SET user_answer = ? WHERE id = ?",
+            (user_answer, task_id)
+        )
+        conn.commit()
+    finally:
+        conn.close()
+
+
+def get_user_by_id(user_id: int) -> dict:
+    conn = get_connection()
+    try:
+        row = conn.execute("SELECT * FROM users WHERE id = ?", (user_id,)).fetchone()
+        if row:
+            return dict(row)
+        return None
+    finally:
+        conn.close()
+
+
+def get_user_streak(user_id: int) -> int:
+    conn = get_connection()
+    try:
+        rows = conn.execute(
+            """SELECT e.is_correct FROM evaluations e
+               JOIN tasks t ON e.task_id = t.id
+               WHERE t.user_id = ?
+               ORDER BY e.created_at DESC""",
+            (user_id,)
+        ).fetchall()
+        streak = 0
+        for row in rows:
+            if row["is_correct"]:
+                streak += 1
+            else:
+                break
+        return streak
     finally:
         conn.close()
 
